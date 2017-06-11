@@ -136,7 +136,7 @@ if __name__ == "__main__":
     # creates the animation
     plotting()
 
-    # determining threshold
+    # Determining when the threshold is hit.
     threshold = 0.001
     for i, value in enumerate(euler_forward(u, dt, 0, te)):
         # We want to calculate the threshold for rho, and euler_forward
