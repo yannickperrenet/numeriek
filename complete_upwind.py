@@ -147,7 +147,7 @@ if __name__ == "__main__":
         ans = sum(dx * value) - dx * (value[0] + value[-1]) / 2
 
         if ans < threshold:
-            # Prints the timestep on which the threshold is reached.
-            print(i)
+            # Print the time at which the threshold is reached.
+            print(i * dt)
 
             break
